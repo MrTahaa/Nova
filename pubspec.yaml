@@ -1,0 +1,28 @@
+name: nova
+description: "Wake-on-LAN remote power control with anti-gravity UI"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wake_on_lan: ^4.1.1+3
+  network_info_plus: ^6.1.3
+  dart_ping: ^9.0.1
+  dart_ping_ios: ^4.0.1
+  shared_preferences: ^2.3.4
+  provider: ^6.1.2
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
